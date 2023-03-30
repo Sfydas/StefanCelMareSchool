@@ -294,16 +294,54 @@ h3 {
   color: gold;
 }
 
-@media (max-width: 700) {
+@media (max-width: 700px) {
   .testimonials-school img {
     margin-left: 0px;
-    margin-right: 150px;
+    margin-right: 15px;
   }
 }
 /* Contact */
+
 .cta {
   margin: 100px auto;
   width: 80%;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
     url(images/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  padding: 100px 0;
+}
+.cta h2 {
+  color: #fff;
+  margin-bottom: 40px;
+  padding: 0;
+}
+
+@media (max-width: 700px) {
+  .cta h2 {
+    font-size: 25px;
+  }
+}
+
+/* Footer */
+
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+}
+.footer h4 {
+  margin-bottom: 25px;
+  margin-top: 25px;
+  font-weight: 600;
+}
+
+.icons .fa-brands,
+.fa-regular {
+  color: rgba(4, 9, 30, 0.7);
+  margin: 0 13px;
+  cursor: pointer;
+  padding: 18px 0;
 }
