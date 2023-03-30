@@ -173,3 +173,137 @@ h3 {
     flex-direction: column;
   }
 }
+/* --------------facilities----------------- */
+.facilities {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.facilities-school {
+  flex-basis: 32%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+.facilities-school img {
+  width: 100%;
+  display: block;
+  height: 100%;
+}
+.layer {
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+}
+.layer:hover {
+  background: rgba(4, 9, 30, 0.7);
+}
+
+.layer h3 {
+  width: 100%;
+  font-weight: 500;
+  color: #fff;
+  font-size: 26px;
+  border: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  opacity: 0;
+  transition: 1s;
+}
+.layer:hover h3 {
+  bottom: 49%;
+  opacity: 1;
+}
+
+/* About */
+
+.about {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.adout-school {
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  text-align: center;
+}
+.adout-school img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.adout-school p {
+  padding: 0;
+}
+.adout-school h3 {
+  margin-top: 16px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+/* Testimonials */
+
+.testimonials {
+  width: 80%;
+  margin: auto;
+  padding-top: 100px;
+  text-align: center;
+}
+.testimonials-school {
+  flex-basis: 44%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  text-align: left;
+  background: #003060;
+  padding: 25px;
+  cursor: pointer;
+  display: flex;
+}
+
+.testimonials-school img {
+  height: 80px;
+  margin-left: 5px;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+.testimonials-school p {
+  padding: 0;
+  color: #fff;
+}
+.testimonials-school h3 {
+  margin-top: 15px;
+  text-align: left;
+  color: #fff;
+}
+
+.testimonials-school .fa-solid {
+  color: gold;
+}
+.testimonials-school .fa-regular {
+  color: gold;
+}
+
+@media (max-width: 700) {
+  .testimonials-school img {
+    margin-left: 0px;
+    margin-right: 150px;
+  }
+}
+/* Contact */
+.cta {
+  margin: 100px auto;
+  width: 80%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(images/banner.jpg);
+}
